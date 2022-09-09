@@ -182,6 +182,6 @@ enum class DateType(val value: String) {
 }
 
 enum class Tab(val value: String) {
-    HOST(value = "Host"),
-    GUEST(value = "Guest"),
+    HOST(value = "Be a Host"),
+    GUEST(value = "Be a Guest"),
 }
