@@ -1,3 +1,4 @@
+![alt text](https://github.com/Singularity-Coder/My-Cloud/blob/main/assets/logo192.png)
 # My Cloud
 Your mobile phone as a cloud platform!
 
