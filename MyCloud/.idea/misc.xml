@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/bg_tab_indicator.xml" value="0.1265" />
+        <entry key="app/src/main/res/drawable/bg_tab_indicator.xml" value="0.1265" />
         <entry key="app/src/main/res/drawable/gradient_dash_header.xml" value="0.1265" />
         <entry key="app/src/main/res/drawable/gradient_header.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_placeholder.xml" value="0.1265" />
