@@ -5,6 +5,7 @@ data class Host(
     var mobileNumber: String = "",
     var dateStarted: Long = 0,
     var imagePath: String = "",
-    var rating: Int = 0,
+    var rating: Float = 0f,
+    var ratingCount: Int = 0,
     var storageSpace: Double = 0.0,
 )

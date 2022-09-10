@@ -172,6 +172,13 @@ val View.isKeyboardVisible: Boolean
         false
     }
 
+
+fun Context.color(@ColorRes colorRes: Int) = ContextCompat.getColor(this, colorRes)
+
+fun Context.drawable(@DrawableRes drawableRes: Int): Drawable? =
+    ContextCompat.getDrawable(this, drawableRes)
+
+
 enum class DateType(val value: String) {
     dd_MMM_yyyy(value = "dd MMM yyyy"),
     dd_MMM_yyyy_h_mm_a(value = "dd-MMM-yyyy h:mm a"),

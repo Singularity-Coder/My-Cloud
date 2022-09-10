@@ -53,8 +53,52 @@ class GuestFragment : Fragment() {
             }
             hostsAdapter.notifyDataSetChanged()
         }
+        setDummyData()
         ibClearSearch.setOnClickListener {
             etSearch.setText("")
         }
+    }
+
+    private fun setDummyData() {
+        val hostList = listOf<Host>(
+            Host(
+                name = "Jack the Black",
+                rating = 3f,
+                storageSpace = 32.0,
+                ratingCount = 33
+            ),
+            Host(
+                name = "Jenny",
+                rating = 5f,
+                storageSpace = 1002.0,
+                ratingCount = 3203
+            ),
+            Host(
+                name = "Rose",
+                rating = 5f,
+                storageSpace = 1020.0,
+                ratingCount = 4002
+            ),
+            Host(
+                name = "Lisa",
+                rating = 5f,
+                storageSpace = 908.0,
+                ratingCount = 5993
+            ),
+            Host(
+                name = "Jisoo",
+                rating = 5f,
+                storageSpace = 1100.0,
+                ratingCount = 6729
+            ),
+            Host(
+                name = "Monkey on the Hill",
+                rating = 1.5f,
+                storageSpace = 732.0,
+                ratingCount = 8
+            )
+        )
+        hostsAdapter.hostList = hostList.toMutableList()
+        hostsAdapter.notifyDataSetChanged()
     }
 }

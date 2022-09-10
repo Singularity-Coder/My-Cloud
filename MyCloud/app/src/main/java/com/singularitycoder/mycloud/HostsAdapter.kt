@@ -35,8 +35,10 @@ class HostsAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
         fun setData(host: Host) {
             itemBinding.apply {
                 tvHostName.text = host.name
-                tvContactPhoneNumber.text = host.mobileNumber
-                tvDateAdded.text = host.dateStarted.toIntuitiveDateTime()
+                tvStorageCount.text = host.storageSpace.toInt().toString()
+                ratingHost.rating = host.rating
+                tvRatingCount.text = "(${host.ratingCount})"
+//                tvDateAdded.text = host.dateStarted.toIntuitiveDateTime()
                 root.setOnClickListener {
                     itemClickListener.invoke(host)
                 }

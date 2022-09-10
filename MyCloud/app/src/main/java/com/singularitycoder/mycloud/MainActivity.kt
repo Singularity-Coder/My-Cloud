@@ -21,7 +21,7 @@ import dagger.hilt.android.AndroidEntryPoint
 // User rating will be removed if the user deletes the app. Its encrypted ofcourse
 
 
-// Host Data - Storage allocated/Storage available   |   Show Device Info   |   My cloud profile (must contain some social security number stuff, earnings, rating, etc)
+// Host Data - Storage allocated/Storage available    |  My Guests   |   Show Device Info   |   My cloud profile (must contain some social security number stuff, earnings, rating, etc)
 // Store Data - List of hosters
 
 @AndroidEntryPoint
